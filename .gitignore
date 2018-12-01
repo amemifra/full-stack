@@ -1,2 +1,3 @@
 # Here files you don't want to push on server
 
+# frontend/node_modules/

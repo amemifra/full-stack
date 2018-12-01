@@ -21,6 +21,20 @@
     <h1>Content header</h1>
     <div id="router-outlet"></div>
   </main>
+
+  <script>
+    const routerOutlet = document.querySelector('#router-outlet');
+    const text = 'dinamicamente';
+
+    routerOutlet.innerHTML = `
+      <section>Ciao da javascript ${text}</section>
+    `;
+    /*
+    setTimeout(function() {
+      routerOutlet.innerHTML = 'Pooom';
+    }, 2500);
+    */
+  </script>
 </body>
 
 </html>
