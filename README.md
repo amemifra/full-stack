@@ -8,6 +8,8 @@ A brief introduction at the web development
 2) CSS
 3) JS
 4) Serve your file, Split your code, Bundle it
+5) Split your code: Components
+6) Single Page Application layers: 1 - Rendering
 
 ###  Html
 
@@ -28,4 +30,12 @@ package.json
 src/main.js
 #### Bundle it
 webpack.config.js
+
+### Split your code: Components
+
+src/components/router.js
+
+### Single Page Application layers: 1 - Rendering
+
+src/components/render.js
 

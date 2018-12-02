@@ -1,10 +1,5 @@
 import './style.css';
+import { render } from './components/render';
+import { router } from './components/router';
 
-const text = 'dinamicamente';
-const router = `
-<h2>Ciao da un file esterno ${text}</h2>
-`;
-
-const routerContainer = document.querySelector('#router-outlet');
-
-routerContainer.innerHTML = router;
+render(router);
