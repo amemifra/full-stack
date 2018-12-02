@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: './frontend/src/main.js',
+  entry: './vanilla/src/main.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -30,9 +30,9 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('style.css'),
     new HtmlWebpackPlugin({
-      template: './frontend/src/index.html'
+      template: './vanilla/src/index.html'
     }),
-    new CopyWebpackPlugin([{ from: 'frontend/src/asset', to: 'asset' }])
+    new CopyWebpackPlugin([{ from: 'vanilla/src/asset', to: 'asset' }])
   ],
   mode: 'development'
 };

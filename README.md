@@ -4,9 +4,14 @@ A brief introduction at the web development
 
 ## Frontend
 
+#### Basic
+
 1) Html
 2) CSS
 3) JS
+
+#### Vanilla JS
+
 4) Serve your file, Split your code, Bundle it
 5) Split your code: Components
 6) Single Page Application layers: 1 - Rendering
@@ -15,48 +20,65 @@ A brief introduction at the web development
 9) Single Page Application layers: 4 - State Management
 10) Refactoring and Single Page Application alive
 
-###  Html
+#### Angular
+
+11) Set up
+
+### Basic
+
+####  Html
 
 src/index.html
 
-### CSS
+#### CSS
 
 src/style.css
 
-### JS
+#### JS
 
 src/insex.html > body > script
 
-### Serve your file, Split your code, Bundle it
-#### Serve your file
+### Vanilla JS
+
+#### Serve your file, Split your code, Bundle it
+##### Serve your file
 package.json
-#### Split your code
+##### Split your code
 src/main.js
-#### Bundle it
+##### Bundle it
 webpack.config.js
 
-### Split your code: Components
+#### Split your code: Components
 
 src/components/router.js
 
-### Single Page Application layers: 1 - Rendering
+#### Single Page Application layers: 1 - Rendering
 
 src/components/render.js
 
-### Single Page Application layers: 2 - Routing
+#### Single Page Application layers: 2 - Routing
 
 src/components/router.js -> src/components/homepage.js
 src/components/router.js
 
-### Single Page Application layers: 3 - Http
+#### Single Page Application layers: 3 - Http
 
 src/asset/rose.jpeg
 
-### Single Page Application layers: 4 - State Management
+#### Single Page Application layers: 4 - State Management
 
 src/components/state-management.js
 
-### Refactoring and Single Page Application alive
+#### Refactoring and Single Page Application alive
 
 src/components/http.js
 src/pages/
+
+### Angular
+
+#### Set up
+
+frontend/ -> vanilla/
+
+npm i -D @angular/cli
+ng new angular --style=scss --routing
