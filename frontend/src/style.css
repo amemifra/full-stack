@@ -29,6 +29,22 @@ html {
     padding: .5rem;
   }
 
+  header {
+    display: flex;
+  }
+
+  header nav {
+    display: flex;
+    margin: 0;
+    padding: .75rem;
+  }
+
+  header nav a {
+    font-size: .63rem;
+    color: #fafafa;
+    margin-left: 1rem;
+  }
+
   main {
     position: absolute;
     padding: 1rem;

@@ -32,5 +32,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './frontend/src/index.html'
     })
-  ]
+  ],
+  mode: 'development'
 };

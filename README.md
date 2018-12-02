@@ -10,6 +10,7 @@ A brief introduction at the web development
 4) Serve your file, Split your code, Bundle it
 5) Split your code: Components
 6) Single Page Application layers: 1 - Rendering
+7) Single Page Application layers: 2 - Routing
 
 ###  Html
 
@@ -39,3 +40,7 @@ src/components/router.js
 
 src/components/render.js
 
+### Single Page Application layers: 2 - Routing
+
+src/components/router.js -> src/components/homepage.js
+src/components/router.js

@@ -1,5 +1,4 @@
 import './style.css';
-import { render } from './components/render';
-import { router } from './components/router';
+import router from './components/router';
 
-render(router);
+router();
