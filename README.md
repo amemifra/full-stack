@@ -11,6 +11,7 @@ A brief introduction at the web development
 5) Split your code: Components
 6) Single Page Application layers: 1 - Rendering
 7) Single Page Application layers: 2 - Routing
+8) Single Page Application layers: 3 - Http
 
 ###  Html
 
@@ -44,3 +45,7 @@ src/components/render.js
 
 src/components/router.js -> src/components/homepage.js
 src/components/router.js
+
+### Single Page Application layers: 3 - Http
+
+src/asset/rose.jpeg

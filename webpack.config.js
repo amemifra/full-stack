@@ -31,7 +31,8 @@ module.exports = {
     new ExtractTextPlugin('style.css'),
     new HtmlWebpackPlugin({
       template: './frontend/src/index.html'
-    })
+    }),
+    new CopyWebpackPlugin([{ from: 'frontend/src/asset', to: 'asset' }])
   ],
   mode: 'development'
 };
