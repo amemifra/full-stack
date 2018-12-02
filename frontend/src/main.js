@@ -5,14 +5,14 @@ router();
 
 const headers = new Headers();
 
-const init = { 
+const requestInit = { 
     method: 'GET',
     headers: headers,
     mode: 'cors',
     cache: 'default' 
 };
 
-fetch('asset/rose.jpeg', init)
+fetch('asset/rose.jpeg', requestInit)
 .then(response => response.blob())
 .then(blob => {
     console.log(blob)

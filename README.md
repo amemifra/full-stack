@@ -12,6 +12,7 @@ A brief introduction at the web development
 6) Single Page Application layers: 1 - Rendering
 7) Single Page Application layers: 2 - Routing
 8) Single Page Application layers: 3 - Http
+9) Single Page Application layers: 4 - State Management
 
 ###  Html
 
@@ -49,3 +50,7 @@ src/components/router.js
 ### Single Page Application layers: 3 - Http
 
 src/asset/rose.jpeg
+
+### Single Page Application layers: 4 - State Management
+
+src/components/state-management.js

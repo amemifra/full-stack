@@ -1,6 +1,6 @@
 import { render } from './render';
-import { homepage } from './homepage';
-import { about } from './about';
+import { homepage } from './pages/homepage';
+import { about } from './pages/about';
 
 const routes = {
   '': homepage,
