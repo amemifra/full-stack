@@ -10,7 +10,7 @@ const routes = {
 const router = () => {
   const path = location.hash.length > 2 ? location.hash.substr(2) : '';
   if (routes[path]) {
-    render(routes[path])
+    render(routes[path]())
   }
 }
 
