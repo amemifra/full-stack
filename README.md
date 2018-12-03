@@ -81,4 +81,5 @@ src/pages/
 frontend/ -> vanilla/
 
 npm i -D @angular/cli
+
 ng new angular --style=scss --routing
